@@ -1,6 +1,9 @@
 {
   "name": "My Doctor",
   "description": "MédiLink Care - Téléconsultation médicale et gestion de santé",
-  "requestFramePermissions": [],
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

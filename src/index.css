@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-family-brand: 'Outfit', sans-serif;
+    --color-brand-blue: #2D9CDB;
+    --color-brand-turquoise: #27AE60;
+    --color-brand-coral: #EB5757;
+    --color-brand-navy: #1A365D;
+    --color-surface-app: #FDFCF8;
+    --color-surface-subtle: #F7FAFC;
+    --color-surface-card: #FFFFFF;
+    --color-border-subtle: #EDF2F7;
+    --color-text-primary: #1A365D;
+    --color-text-secondary: #4A5568;
+    --color-text-muted: #718096;
+  }
+
+  body {
+    font-family: var(--font-family-brand);
+    background-color: var(--color-surface-app);
+    color: var(--color-text-primary);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom utility classes */
+.shadow-card {
+  box-shadow: 0 10px 30px rgba(26, 54, 93, 0.06);
+}
+
+.shadow-card-hover {
+  box-shadow: 0 14px 36px rgba(26, 54, 93, 0.1);
+}
